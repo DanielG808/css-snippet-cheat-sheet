@@ -2,7 +2,6 @@
 * {
     box-sizing: border-box;
     border: 1px solid red;
-    color: rgb(212, 79, 212);
     background-color: rgb(75, 66, 95);
 }
 
@@ -11,13 +10,24 @@
 header {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; 
+}
+
+main {
+
+}
+
+main p {
+    color: rgb(212, 79, 212);
+}
+body {
+    color: white;
+}
+
+h1, h2 {
+    color: rgb(212, 79, 212);
 }
 
 /* Class Selectors */
 
 /* ID Selectors */
-
-.subheader {
-    color: white;
-}
