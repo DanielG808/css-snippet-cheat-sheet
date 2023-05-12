@@ -1,7 +1,7 @@
 /* Universal Selector */
 * {
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: rgb(75, 66, 95);
 }
 
@@ -14,7 +14,9 @@ header {
 }
 
 main {
-
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
 }
 
 main p {
@@ -29,5 +31,11 @@ h1, h2 {
 }
 
 /* Class Selectors */
+
+.card {
+    border-style: dashed;
+    border-color: white;
+}
+
 
 /* ID Selectors */
