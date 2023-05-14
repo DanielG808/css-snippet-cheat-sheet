@@ -1,7 +1,7 @@
 /* Universal Selector */
 * {
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: rgb(75, 66, 95);
     font-family: sans-serif;
 }
@@ -49,11 +49,22 @@ section h2 {
     border-radius: 10px;
     padding: 4px;
     position: absolute;
-    top: -40%;
-    min-width: 95%;
+    margin-top: -33px;
+    min-width: 93%;
 }
 
 /* Class Selectors */
+
+.linear-gradient-background {
+    background-image: linear-gradient(
+        #777 15%,
+        rgb(212, 79, 212) 100%
+    );
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 /* ID Selectors */
 
