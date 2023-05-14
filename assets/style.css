@@ -23,6 +23,11 @@ main {
 main p {
     color: rgb(212, 79, 212);
 }
+
+main section {
+    padding: 16px;
+}
+
 body {
     color: white;
 }
@@ -31,28 +36,33 @@ h1, h2 {
     color: rgb(212, 79, 212);
 }
 
+section {
+    border: 2px dashed white;
+    position: relative;
+    padding: 10px;
+}
+
 section h2 {
     display: flex;
     justify-content: left;
     border: 2px solid white;
     border-radius: 10px;
     padding: 4px;
-    /* position: absolute;
-    top: -40px;
-    left: 40px; */
+    position: absolute;
+    top: -40%;
+    min-width: 95%;
 }
 
 /* Class Selectors */
 
-.card {
-    border: 2px dashed white;
-    position: relative;
-}
-
-.header-box {
-    
-
-}
-
-
 /* ID Selectors */
+
+/* Pseudo Classes */
+
+section:hover {
+    box-shadow: 5px 5px 5px rgb(212, 79, 212) inset;
+}
+
+section h2:hover {
+    box-shadow: 5px 5px 5px rgb(212, 79, 212) inset;
+}
