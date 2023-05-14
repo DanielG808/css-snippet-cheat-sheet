@@ -53,6 +53,10 @@ section h2 {
     min-width: 93%;
 }
 
+code {
+    font-family: monospace;
+}
+
 /* Class Selectors */
 
 .linear-gradient-background {
@@ -71,6 +75,11 @@ section h2 {
     transition: all 0.5s ease-in-out;
 }
 
+.code-card-2 .card-header-2 {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
 
 /* ID Selectors */
 
@@ -80,7 +89,6 @@ section h2 {
 
 .code-card:hover .card-header {
     box-shadow: 
-    inset 0px 0px 8px #777,
+    0px 0px 8px rgb(212, 79, 212),
     inset 0px 0px 15px rgb(212, 79, 212);
-
 }
