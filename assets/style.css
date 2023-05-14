@@ -57,12 +57,18 @@ section h2 {
 
 .linear-gradient-background {
     background-image: linear-gradient(
-        #777 15%,
+        #777 0%,
         rgb(212, 79, 212) 100%
     );
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
+    
+}
+
+.code-card .card-header {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
 }
 
 
@@ -70,10 +76,11 @@ section h2 {
 
 /* Pseudo Classes */
 
-section:hover {
-    box-shadow: 5px 5px 5px rgb(212, 79, 212) inset;
-}
+.code-card:hover,
 
-section h2:hover {
-    box-shadow: 5px 5px 5px rgb(212, 79, 212) inset;
+.code-card:hover .card-header {
+    box-shadow: 
+    inset 0px 0px 8px #777,
+    inset 0px 0px 15px rgb(212, 79, 212);
+
 }
