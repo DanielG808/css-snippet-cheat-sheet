@@ -79,10 +79,11 @@ footer h2 {
 
 .linear-gradient-background {
     background-image: linear-gradient(
-        #777 0%,
+        rgb(136, 52, 136) 0%,
         rgb(212, 79, 212) 100%
     );
     border-radius: 10px;
+    padding: 8px;
 }
 
 .card-header {
@@ -95,8 +96,8 @@ footer h2 {
 .code-card {
     display: flex;
     flex-direction: column;
-    flex: 0 0 300px;
-    margin: 16px;
+    flex: 1 0 300px;
+    margin: 32px;
 }
 
 .code-card, .card-header {
@@ -113,4 +114,13 @@ footer h2 {
     box-shadow: 
     0px 0px 8px rgb(212, 79, 212),
     inset 0px 0px 15px rgb(212, 79, 212);
+}
+
+.code-card code {
+    user-select: all;
+}
+
+::selection {
+    background-color: aquamarine;
+    color:rgb(75, 66, 95);
 }
