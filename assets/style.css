@@ -17,7 +17,7 @@ header {
 main {
     padding: 16px;
     display: flex;
-    flex-wrap: inherit;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -73,17 +73,23 @@ code {
         rgb(212, 79, 212) 100%
     );
     border-radius: 10px;
-    /* display: flex;
-    flex-grow: 1;  */
 }
 
 .card-header {
     position: absolute;
     margin-top: -33px;
-    min-width: 93%;
+    min-width: 90%;
+    flex-wrap: wrap;
 }
 
-.code-card .card-header {
+.code-card {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 300px;
+    margin: 16px;
+}
+
+.code-card, .card-header {
     border-radius: 8px;
     transition: all 0.5s ease-in-out;
 }
