@@ -66,6 +66,10 @@ section pre {
     
 }
 
+code {
+    background-color: transparent;
+}
+
 footer h2 {
     color: rgb(212, 79, 212);
     text-align: center;
