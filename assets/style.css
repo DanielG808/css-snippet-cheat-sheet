@@ -12,6 +12,7 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 1em 10%;
 }
 
 main {
@@ -61,8 +62,13 @@ section h2 {
     padding: 4px;
 }
 
-code {
-    font-family: monospace;
+section pre {
+    
+}
+
+footer h2 {
+    color: rgb(212, 79, 212);
+    text-align: center;
 }
 
 /* Class Selectors */
@@ -90,7 +96,6 @@ code {
 }
 
 .code-card, .card-header {
-    border-radius: 8px;
     transition: all 0.5s ease-in-out;
 }
 
